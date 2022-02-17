@@ -2,7 +2,7 @@
 The Configuration Translation module (part of Drupal Core in Drupal 9) allows configuration to be translated into different languages. Whenever there are custom configurations, then it relies on having a correct configuration schema to provide translations. So, every module must provide a correct schema. This is just an example module to get an idea of how can we achieve it through a custom module.
 
 ## How to get config translation
-[Translated Config](https://www.drupal.org/project/translated_config) is necessary as Drupal Core does not provide a way to get one complete dataset of configuration in a specified language.
+[Translated Config](https://www.drupal.org/project/translated_config) module is necessary if there is a use case of such type as Drupal Core does not provide a way to get one complete dataset of configuration in a specified language.
 
 ```
 \Drupal::service('translated_config.helper')->getTranslatedConfig('system.site','de')->get('name');
