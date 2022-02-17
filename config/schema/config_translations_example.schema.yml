@@ -1,3 +1,7 @@
+# Schema for Basic Settings form. Mapping is the area where we define
+# the individual field data type. In simple words, you can consider
+# label type as basic text field data type, sequence type as an array
+# field data type and text as an textarea field type etc.
 config_translations_example.basic_settings:
   type: config_object
   label: Example Config Translations Basic Settings
@@ -21,6 +25,9 @@ config_translations_example.basic_settings:
       label: Message
       type: text
 
+# Schema for Medium Settings form. Mapping is the area where we define
+# the individual field data type. In this case, if you notice mapping is
+# inside mapping which means array within array mainly known as sub array.
 config_translations_example.medium_settings:
   type: config_object
   label: Example Config Translations Advanced Settings
@@ -46,6 +53,8 @@ config_translations_example.medium_settings:
           label: Color
           type: sequence
 
+# Schema for Advanced Settings form. Combination of array
+# and nested sub-array fields.
 config_translations_example.advanced_settings:
   type: config_object
   label: Example Config Translations Advanced Settings
