@@ -1,0 +1,8 @@
+example:
+  lorum_text: lorum_text
+  sample_text: sample_text
+example_field_types:
+  status: 1
+  color:
+    red: red
+    black: black

@@ -1,0 +1,24 @@
+config_translations_example.basic_settings:
+  path: '/admin/config/config_translations_example_basic'
+  defaults:
+    _form: '\Drupal\config_translations_example\Form\BasicSettingsForm'
+    _title: 'Basic Settings'
+  requirements:
+    _permission: 'administer example config settings'
+
+config_translations_example.medium_settings:
+  path: '/admin/config/config_translations_example_medium'
+  defaults:
+    _form: '\Drupal\config_translations_example\Form\MediumSettingsForm'
+    _title: 'Medium Settings'
+  requirements:
+    _permission: 'administer example config settings'
+
+config_translations_example.advanced_settings:
+  path: '/admin/config/config_translations_example_advanced'
+  defaults:
+    _form: '\Drupal\config_translations_example\Form\AdvancedSettingsForm'
+    _title: 'Advanced Settings'
+  requirements:
+    _permission: 'administer example config settings'
+

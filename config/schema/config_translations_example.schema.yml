@@ -1,0 +1,72 @@
+config_translations_example.basic_settings:
+  type: config_object
+  label: Example Config Translations Basic Settings
+  mapping:
+    title:
+      label: Title
+      type: label
+    select:
+      label: Select
+      type: string
+    checkbox:
+      label: Checkbox
+      type: boolean
+    checkboxes:
+      label: Multiple Checkbox
+      type: sequence
+    radios:
+      label: Radios
+      type: string
+    message:
+      label: Message
+      type: text
+
+config_translations_example.medium_settings:
+  type: config_object
+  label: Example Config Translations Advanced Settings
+  mapping:
+    example:
+      label: Example
+      type: mapping
+      mapping:
+        lorum_text:
+          label: Lorum Text
+          type: label
+        sample_text:
+          label: Sample Text
+          type: text
+    example_field_types:
+      label: Example Field Types
+      type: mapping
+      mapping:
+        status:
+          label: Status
+          type: boolean
+        color:
+          label: Color
+          type: sequence
+
+config_translations_example.advanced_settings:
+  type: config_object
+  label: Example Config Translations Advanced Settings
+  mapping:
+    site:
+      label: Site
+      type: mapping
+      mapping:
+        title:
+          label: Title
+          type: label
+        content:
+          label: Content
+          type: text
+    mails:
+      label: Mails
+      type: sequence
+    entity_reference:
+      label: Entity reference
+      type: mapping
+      mapping:
+        target_id:
+          type: string
+          label: Value
