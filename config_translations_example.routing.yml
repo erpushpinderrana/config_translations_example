@@ -1,3 +1,4 @@
+// Add the routing for Basic settings form.
 config_translations_example.basic_settings:
   path: '/admin/config/config_translations_example_basic'
   defaults:
@@ -6,6 +7,7 @@ config_translations_example.basic_settings:
   requirements:
     _permission: 'administer example config settings'
 
+// Add the routing for Medium settings form.
 config_translations_example.medium_settings:
   path: '/admin/config/config_translations_example_medium'
   defaults:
@@ -14,6 +16,7 @@ config_translations_example.medium_settings:
   requirements:
     _permission: 'administer example config settings'
 
+// Add the routing for Advanced settings form.
 config_translations_example.advanced_settings:
   path: '/admin/config/config_translations_example_advanced'
   defaults:
