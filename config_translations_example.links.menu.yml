@@ -1,15 +1,18 @@
+// Add the Basic Settings link in admin system configuration.
 config_translations_example.basic_settings:
   title: 'Example Basic Settings'
   description: 'Manage - Example Basic Settings.'
   parent: system.admin_config_system
   route_name: config_translations_example.basic_settings
 
+// Add the Medium Settings link in admin system configuration.
 config_translations_example.medium_settings:
   title: 'Example Medium Settings'
   description: 'Manage - Example Medium Settings.'
   parent: system.admin_config_system
   route_name: config_translations_example.medium_settings
 
+// Add the Advanced Settings link in admin system configuration.
 config_translations_example.advanced_settings:
   title: 'Example Advanced Settings'
   description: 'Manage - Example Advanced Settings.'
