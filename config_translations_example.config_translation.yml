@@ -1,15 +1,23 @@
+// Most important file.
+// Include the mapping of your config page here.
+// If all good, it will appear in Configuration translation page.
+// The path is/admin/config/regional/config-translation
+
+// Add Basic Settings Config in Configuration translation page.
 config_translations_example.basic_settings:
   title: Basic Settings
   base_route_name: config_translations_example.basic_settings
   names:
     - config_translations_example.basic_settings
 
+// Add Medium Settings Config in Configuration translation page.
 config_translations_example.medium_settings:
   title: Medium Settings
   base_route_name: config_translations_example.medium_settings
   names:
     - config_translations_example.medium_settings
 
+// Add Advanced Settings Config in Configuration translation page.
 config_translations_example.advanced_settings:
   title: Advanced Settings
   base_route_name: config_translations_example.advanced_settings
