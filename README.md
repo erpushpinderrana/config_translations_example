@@ -9,7 +9,7 @@ The Configuration Translation module (part of Drupal Core in Drupal 9) allows co
 ```
 
 ## References
-https://www.drupal.org/docs/multilingual-guide/translating-configuration
-https://www.drupal.org/docs/user_guide/en/language-config-translate.html
-https://antistatique.net/en/blog/drupal-8-how-to-translate-the-config-api
-https://www.drupal.org/docs/drupal-apis/configuration-api/configuration-schemametadata
+* https://www.drupal.org/docs/multilingual-guide/translating-configuration
+* https://www.drupal.org/docs/user_guide/en/language-config-translate.html
+* https://antistatique.net/en/blog/drupal-8-how-to-translate-the-config-api
+* https://www.drupal.org/docs/drupal-apis/configuration-api/configuration-schemametadata
